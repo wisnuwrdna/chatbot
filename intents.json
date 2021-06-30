@@ -1,0 +1,46 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns": ["selamat pagi", "selamat siang", "selamat sore", "selamat malam"],
+    "responses": ["Pagi juga", "siang juga", "sore juga", "malam juga", "Ada yang bisa saya bantu?"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["terima kasih", "dadah"],
+    "responses": ["terima kasih telah menghubungi kami", "jika ada masalah atau pertanyaan silakan hubungi kami kembali"]
+  },
+  {"tag": "sinyal",
+    "patterns": ["sinyal saya hilang", "hari ini sinyal saya bermasalah"],
+    "responses": ["Coba off kan data dan on kan lagi dalam beberapa menit!", "Coba hidupkan mode pesawat dan matikan kembali dalam beberapa menit", "mohon maaf, sedang ada perbaikan bts untuk meningkatkan layanan sehingga sinyal anda mungkin akan hilang beberapa saat", "Apabila hal tersebut terjadi kemungkinan daerah kamu terjadi pemadaman listrik atau sedang hujan"]
+  },
+  {"tag": "pulsahilang",
+    "patterns": ["mengapa pulsa saya berkurang sendiri?", "saya tidak menelepon atau sms tapi pulsa saya berkurang"],
+    "responses": ["hal itu disebabkan kuota internet anda sudah habis, sehingga selanjutnya internet anda akan menggunakan pulsa", "Pulsa anda berkurang karena anda berlanggan RBT"]
+  },
+  {"tag": "isipulsa",
+    "patterns": ["Saya melakukan pengisian pulsa tapi pulsa tidak masuk", "saya melakukan pengisian pulsa, tetapi yang masuk hanya setengah"],
+    "responses": ["Hal tersebut bisa terjadi apabila anda melakukan pengisian pulsa tengah malam", "Itu Terjadi karena sebelumnya anda memiliki tagihan, sehinggan pulsa anda terpotong"]
+  },
+  {"tag": "sisakuota",
+    "patterns": ["berapa sisa kuota saya", "cek kuota"],
+    "responses": ["Sisa Kuota kamu 1gb", "untuk melakukan pengecekan kuota silakan hubungi *111*3#"]
+  },
+  {"tag": "fup",
+    "patterns": ["berapa fup paket unlimited", "berapa batas pemakaian wajar"],
+    "responses": ["fup untuk paket unlimited adalah 300gb 1 bulan!", "batas pemakaian wajar untuk 1 bulan adalah 300gb setelahnya kecepatan anda akan menjadi 75kbps!"]
+  },
+  {"tag": "kuotagagal",
+    "patterns": ["kuota tidak masuk", "saya mengisi kuota sukses, tapi kuota saya tidak bertambah"],
+    "responses": ["Mohon maaf, karena sedang ada gangguan sistem, kuota kamu akan masuk dalam beberapa menit!", "silakan cek kembali vouncher kamu!"]
+  },
+  {"tag": "bonus",
+    "patterns": ["claim bonus", "bagaimana cara mendapatkan bonus"],
+    "responses": ["aktifkan bonus 3gb dengan mengisi pulsa 50 ribu", "setiap pengisian pulsa akan mendapatkan bonus berupa kuota internet!"]
+  },
+  {"tag": "karturusak",
+    "patterns": ["kartu saya diblokir", "kartu saya rusak"],
+    "responses": ["untuk mengaktifkan kembali kartu anda, silakan datang ke grafari terdekat", "jika kartu kamu diblokir, hilang, atau rusak silakan datang ke grafari terdekat dengan membawa no nik dan no kk untuk kartu yang anda gunakan untuk aktivasi sebelumnya!"]
+  },
+  {"tag": "point",
+    "patterns": ["bagaimana cara mendapatkan point, bagaimana cara menukarkan poin"],
+    "responses": ["cara mendapatkan point bisa dengan isi ulang pulsa atau isi ulang kuota", "cara menukarkan point dengan cara masuk ke https://three.com/tukarpoint/nomorhp kemudian masukan nomor telpon dan tukarkan point anda, penukaran bisa berupa kuota, voucer belanja, dan diskon tiket."]
+  }
+]}
